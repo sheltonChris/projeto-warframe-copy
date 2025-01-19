@@ -1,0 +1,2 @@
+161618 = cor do cabecalho
+https://www-static.warframe.com/uploads/thumbnails/9ac22055578934202cd33d6e9290eb9_1280x720.png = plano de fundo
