@@ -17,7 +17,7 @@
             <h1><img src="img/nav-warframe-logo.png" alt="nav-img-logo"></h1>
             <nav>
                 <ul>
-                    <li><a href="#cadastro">Jogue Gratuitamente Agora Mesmo</a>
+                    <li><a href="#cadastro" id="link-cadastro">Jogue Gratuitamente Agora Mesmo</a>
                     </li>
                     <li><a href="#">Entrar</a>
                     </li>
@@ -43,14 +43,16 @@
     <section id="cadastro" class="pass">
         <h3>Cadastre-se</h3>
         <div>
-            <form>
+            <form id="cadastro">
                 <input type="text" placeholder="Seu nickname" required>
                 <input type="email" placeholder="Seu E-mail" required>
                 <input type="email" placeholder="Confirme seu E-mail" required>
-                <input type="password" placeholder="Senha" required>
-                <input type="password" placeholder="Confirme a senha" required>
+                <input type="password" placeholder="Senha" required id="senha">
+                <input type="password" placeholder="Confirme a senha" required id="confirmar-senha">
+                <p id="senha-errada">As senhas devem ser iguais</p>
                 <button type="submit">Cadastrar</button>
             </form>
+            <p id="senha-certa">Login realizado com Sucesso</p>
         </div>
     </section>
 
@@ -58,5 +60,6 @@
     <div class="container">
     <p>&copy;  Digital Extremes Ltd. Todos os direitos reservados. Todas as marcas registradas são propriedade de seus respectivos donos.</p>
 </div></footer>
+<script src="main.js"></script>
 </body>
 </html>

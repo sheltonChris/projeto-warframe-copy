@@ -42,6 +42,18 @@ header nav li a button:hover {
     color: #b6f1e4;
 }
 
+#link-cadastro {
+    color: #050505;
+    border: 2px solid #b6f1e4;
+    padding: 5px;
+    background-color: #b6f1e4;
+}
+
+#link-cadastro:hover {
+    background-color: #418979;
+    cursor: pointer;
+}
+
 
 .container {
     max-width: 1280px;
@@ -75,6 +87,11 @@ section h2, h3, p {
     color: #ffffff;
 }
 
+#senha-certa {
+    display: none;
+    justify-content: center;
+}
+
 form input,
 form button {
     display: block;
@@ -82,6 +99,14 @@ form button {
     width: 320px;
     margin-bottom: 8px;
     padding: 8px;
+}
+
+form p {
+    display:none;
+    justify-content: center;
+    margin-bottom: 5px;
+    color: red;
+    font-size: 8px;
 }
 
 .pass {
@@ -104,8 +129,10 @@ input:focus {
     outline-color: #418979;
 }
 
-footer {
-    color: #b6f1e4;
+footer p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
     padding: 16px;
     font-size: 10px;
 }
